@@ -1,6 +1,39 @@
 html {
   scroll-behavior: smooth;
 }
+
+h1{
+  font-size: 24px;
+}
+
+h2{
+  font-size: 20px;
+}
+
+h3{
+  font-size: 18px;
+}
+
+*{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+main{
+  width: 50%;
+}
+
+aside{
+  width: 50%;
+}
+
+.navi{
+  display: flex;
+}
+
+.column{
+  flex: 1;
+}
+
 .list-box {
   background-color: #90ee90;
   padding: 20px;
@@ -44,4 +77,8 @@ ol {
 
 .list-box a:hover {
   text-decoration: underline;
+}
+
+body{
+  background: #c9c9c9;
 }
