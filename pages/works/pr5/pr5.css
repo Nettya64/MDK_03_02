@@ -1,0 +1,228 @@
+/* Задание 1 */
+.menu-task1 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 150px;
+}
+.menu-task1 li {
+    border: 1px solid blue;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+}
+.menu-task1 li a {
+    color: blue;
+    text-decoration: none;
+    display: block;
+}
+.menu-task1 li:hover {
+    border-color: darkblue;
+    background-color: #e6f0fa;
+}
+
+/* Задание 2 */
+.menu-task2 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 150px;
+}
+.menu-task2 li {
+    background: rgb(73, 73, 73);
+    border: 1px solid rgb(73, 73, 73);
+    margin-bottom: 5px;
+    padding: 5px 10px;
+}
+.menu-task2 li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+.menu-task2 li:hover {
+    background: white;
+    border: 1px solid black;
+}
+.menu-task2 li:hover a {
+    color: black;
+}
+
+/* Задание 3 */
+.menu-task3 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu-task3 li {
+    float: left;
+    border: 1px solid blue;
+    margin-right: 5px;
+    padding: 5px 10px;
+}
+.menu-task3 li a {
+    color: blue;
+    text-decoration: none;
+}
+.menu-task3 li:hover a {
+    color: red;
+}
+.clear {
+    clear: both;
+}
+
+/* Задание 4 */
+.menu-task4 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu-task4 li {
+    display: inline-block;
+    border: 1px solid blue;
+    margin-right: 5px;
+    padding: 5px 10px;
+}
+.menu-task4 li a {
+    color: blue;
+    text-decoration: none;
+}
+.menu-task4 li:hover {
+    background: black;
+    border-color: black;
+}
+.menu-task4 li:hover a {
+    color: white;
+}
+
+/* Задание 5 */
+.menu-task5 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: orange;
+}
+.menu-task5 li {
+    display: inline-block;
+}
+.menu-task5 li a {
+    display: block;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.menu-task5 li:hover a {
+    background: red;
+}
+
+/* Задание 6 */
+.menu-task6 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 200px;
+}
+.menu-task6 li {
+    position: relative;
+    background: #0076ce;
+    border: 2px solid #0076ce;
+    margin-bottom: 3px;
+}
+.menu-task6 li a {
+    display: block;
+    padding: 6px 12px;
+    color: white;
+    text-decoration: none;
+}
+.menu-task6 li:hover {
+    background: white;
+    border: 2px solid #0076ce;
+}
+.menu-task6 li:hover a {
+    color: #0076ce;
+}
+.menu-task6 li:hover::after {
+    content: url("../../../img/pr5/blue.png");
+    position: absolute;
+    right: 10px;
+    top: 6px;
+}
+.cards-task6 {
+    list-style: none;
+    padding: 5px 10px;
+    margin: 0;
+    width: fit-content;
+}
+.cards-task6 li {
+    margin-bottom: 6px;
+    font-size: 16px;
+    font-family: 'Times New Roman', serif;
+}
+.cards-task6 .spade::before { content: "\2660  "; color: black; }
+.cards-task6 .club::before { content: "\2663  "; color: black; }
+.cards-task6 .diamond::before { content: "\2666  "; color: red; }
+.cards-task6 .heart::before { content: "\2665  "; color: red; }
+
+/* Задание 7 */
+.menu-task7 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu-task7 li {
+    display: inline-block;
+    text-align: center;
+    margin-right: 25px;
+    vertical-align: bottom;
+}
+.menu-task7 li a {
+    color: #888;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    display: block;
+}
+.menu-task7 li::before {
+    display: block;
+    margin: 0 auto 6px auto;
+    height: 32px;
+}
+.menu-task7 .item1::before { content: url("../../../img/pr5/1.png"); }
+.menu-task7 .item2::before { content: url("../../../img/pr5/2.png"); }
+.menu-task7 .item3::before { content: url("../../../img/pr5/3.png"); }
+.menu-task7 .item4::before { content: url("../../../img/pr5/4.png"); }
+.menu-task7 .item5::before { content: url("../../../img/pr5/5.png"); }
+.menu-task7 li:hover a {
+    color: #0076ce;
+}
+
+/* Задание 8 */
+table.calendar {
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+}
+table.calendar th {
+    padding: 6px 12px;
+    font-size: 14px;
+    color: #333;
+    border-bottom: 2px solid #555;
+}
+table.calendar td {
+    padding: 6px 12px;
+    font-size: 14px;
+    color: #333;
+    border: none;
+}
+table.calendar .weekend {
+    color: #7fa2c7;
+    background: none;
+}
+table.calendar .holiday {
+    color: red;
+    font-weight: bold;
+    background: none;
+}
+table.calendar .today {
+    text-decoration: underline;
+}
