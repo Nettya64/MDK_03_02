@@ -142,7 +142,7 @@
     color: #0076ce;
 }
 .menu-task6 li:hover::after {
-    content: url("../../../img/pr5/blue.png");
+    content: url("../../../img/prvk/blue.png");
     position: absolute;
     right: 10px;
     top: 6px;
@@ -187,11 +187,11 @@
     margin: 0 auto 6px auto;
     height: 32px;
 }
-.menu-task7 .item1::before { content: url("../../../img/pr5/1.png"); }
-.menu-task7 .item2::before { content: url("../../../img/pr5/2.png"); }
-.menu-task7 .item3::before { content: url("../../../img/pr5/3.png"); }
-.menu-task7 .item4::before { content: url("../../../img/pr5/4.png"); }
-.menu-task7 .item5::before { content: url("../../../img/pr5/5.png"); }
+.menu-task7 .item1::before { content: url("../../../img/prvk/1.png"); }
+.menu-task7 .item2::before { content: url("../../../img/prvk/2.png"); }
+.menu-task7 .item3::before { content: url("../../../img/prvk/3.png"); }
+.menu-task7 .item4::before { content: url("../../../img/prvk/4.png"); }
+.menu-task7 .item5::before { content: url("../../../img/prvk/5.png"); }
 .menu-task7 li:hover a {
     color: #0076ce;
 }
