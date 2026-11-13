@@ -1,57 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <title>Анисимов: главная</title>
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-    <header>Персональный сайт Анисимова Данила
-    <p>
-    <a href="index.html">Главная</a>
-    <a href="pages/news.html">Новости</a>
-    <a href="pages/personal.html">Личный кабинет</a>
-    <a href="pages/works/work.html">Мои работы</a>
-    <a href="pages/login.html">Войти</a>
-    <a href="pages/register.html">Регистрация</a>
-    </p>
+    <header>
+        <div>Персональный сайт Анисимова Данила</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="pages/news.html">Новости</a></li>
+                <li><a href="pages/personal.html">Личный кабинет</a></li>
+                <li><a href="pages/works/work.html">Мои работы</a></li>
+                <li><a href="pages/login.html">Войти</a></li>
+                <li><a href="pages/register.html">Регистрация</a></li>
+            </ul>
+        </nav>
     </header>
+
     <main>
         <h1>Мои навыки</h1>
-
         <div class="navi">
             <div class="column">
                 <article>
-                    <img src="img/index/Black.png" alt="blakc box" width="150" height="100">
+                    <div class="prew skill1"></div>
                     <h2>Монтаж видео</h2>
-                    <p>Умею монтировать видео в таких программах, как Adobe After effects и Adobe Premiere Pro</p>
+                    <p>Умею монтировать видео в таких программах, как Adobe After Effects и Adobe Premiere Pro</p>
                 </article>
             </div>
 
             <div class="column">
                 <article>
-                    <img src="img/index/Black.png" alt="blakc box" width="150" height="100">
+                    <div class="prew skill2"></div>
                     <h2>Работа с нейросетями</h2>
                     <p>Умею работать с нейросетями и их API ключами</p>
                 </article>
-           </div>
+            </div>
 
             <div class="column">
                 <article>
-                    <img src="img/index/Black.png" alt="blakc box" width="150" height="100">
+                    <div class="prew skill3"></div>
                     <h2>Редактирование изображений</h2>
-                    <p>Умею работать с программами по типу Adobe Photostop, GIMP</p>
+                    <p>Умею работать с программами по типу Adobe Photoshop, GIMP</p>
                 </article>
             </div>
         </div>
 
         <h2>Пройденные курсы</h2>
+        <div class="navi">
+            <div class="column">
+                <article>
+                    <div class="prew course1"></div>
+                    <h3>Курс 1</h3>
+                    <p>Первый курс в Авиационном Техникуме</p>
+                </article>
+            </div>
 
-        <article>
-            <h3>Курс 1</h3>
-            <p>Первый курс в Авиационном Техникуме</p>
-        </article>
+            <div class="column">
+                <article>
+                    <div class="prew course2"></div>
+                    <h3>Курс 2</h3>
+                    <p>Основы HTML, CSS и веб-вёрстки</p>
+                </article>
+            </div>
+        </div>
     </main>
+
     <footer>Сайт разработан Анисимовым Данилом © Все права защищены</footer>
 </body>
 </html>

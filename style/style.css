@@ -2,42 +2,157 @@ html {
   scroll-behavior: smooth;
 }
 
-h1{
+* {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+body {
+  background: #1c1c1c;
+  color: #e0e0e0;
+  margin: 0;
+  padding: 20px;
+}
+
+a {
+  color: #8ab4f8;
+}
+
+h1 {
   font-size: 24px;
 }
 
-h2{
+h2 {
   font-size: 20px;
 }
 
-h3{
+h3 {
   font-size: 18px;
 }
 
-*{
-  font-family: 'Times New Roman', Times, serif;
+/* Шапка и меню по центру */
+header {
+  background: #282828;
+  padding: 15px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
-main{
-  width: 50%;
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0 0 0;
+  display: flex;
+  justify-content: center;
 }
 
-aside{
-  width: 50%;
+nav ul li {
+  margin: 0 8px;
 }
 
-.navi{
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  background: #383838;
+  padding: 8px 15px;
+  display: block;
+}
+
+nav ul li a:hover {
+  background: #555555;
+}
+
+/* Основная часть и боковая колонка */
+.content {
   display: flex;
 }
 
-.column{
-  flex: 1;
+main {
+  width: 100%;
+  background: #282828;
+  padding: 20px;
 }
 
+aside {
+  width: 300px;
+  background: #282828;
+  padding: 20px;
+  margin-left: 20px;
+}
+
+/* Колонки на главной */
+.navi {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.column {
+  flex: 1;
+  background: #333333;
+  padding: 15px;
+  margin-right: 15px;
+}
+
+.column:last-child {
+  margin-right: 0;
+}
+
+/* Блоки для картинок */
+.prew {
+  width: 260px;
+  height: 150px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left center;
+  margin-bottom: 10px;
+}
+
+.skill1,
+.skill2,
+.skill3,
+.course1,
+.course2 {
+  background-image: url("../img/index/Black.png");
+}
+
+.new1 {
+  background-image: url("../img/news/img1.png");
+}
+
+.new2 {
+  background-image: url("../img/news/img2.jpg");
+}
+
+.new3 {
+  background-image: url("../img/news/img3.jpg");
+}
+
+/* Новости */
+.news-item {
+  border-bottom: 1px solid #444444;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.news-item span {
+  display: block;
+  color: #aaaaaa;
+  margin-top: 8px;
+}
+
+footer {
+  margin-top: 20px;
+  padding: 15px;
+  background: #282828;
+  text-align: center;
+}
+
+/* Стили для ПР №2 */
 .list-box {
   background-color: #90ee90;
   padding: 20px;
   width: fit-content;
+  color: #003300;
 }
 
 .list-top {
@@ -46,39 +161,35 @@ aside{
   margin-bottom: 10px;
 }
 
-ol {
+.list-box ol {
   margin: 0;
   padding-left: 15px;
   color: #003300;
 }
 
-.top{
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    background-color: #118b11;
-    padding: 10px;
+.top {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: #383838;
+  padding: 10px;
+}
+
+.top a {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .list-box a {
-  color: inherit;
+  color: #003300;
   text-decoration: none;
 }
 
 .list-box a span {
   background-color: #dcdcdc;
   padding: 1px 4px;
-  border-radius: 2px;
-}
-
-.list-box a:hover span {
-  background-color: #c8c8c8;
 }
 
 .list-box a:hover {
   text-decoration: underline;
-}
-
-body{
-  background: #ffffff;
 }

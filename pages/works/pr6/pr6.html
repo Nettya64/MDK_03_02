@@ -1,81 +1,86 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <title>Анисимов: Практическая работа №6</title>
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="pr6.css">
+    <link rel="stylesheet" href="../../../style/style.css">
+    <link rel="stylesheet" href="style6.css">
 </head>
 <body>
 
     <header>
-    Персональный сайт Анисимова Данила
-    <p>
-        <a href="../work.html">Вернуться к списку работ</a>
-    </p>
+        <p>Персональный сайт Анисимова Данила</p>
+        <nav>
+            <ul>
+                <li><a href="../work.html">Вернуться к списку работ</a></li>
+            </ul>
+        </nav>
     </header>
 
-<div class="header">
-    <div class="nav">
-        <a class="nav-item" href="#">Главная</a>
-        <a class="nav-item" href="#">О нас</a>
-        <a class="nav-item" href="#">Услуги</a>
-        <a class="nav-item" href="#">Контакты</a>
-    </div>
-</div>
+    <header class="v1-header">
+        <nav class="v1-nav">
+            <a class="nav-item" href="#">Главная</a>
+            <a class="nav-item" href="#">О нас</a>
+            <a class="nav-item" href="#">Услуги</a>
+            <a class="nav-item" href="#">Контакты</a>
+        </nav>
+    </header>
 
+    <main class="v1-content">
+        <section class="v1-main">
+            <section class="v1-section">
+                <h1>Кто мы такие?</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis soluta praesentium nobis vel, porro saepe repudiandae earum? Doloribus cumque expedita, alias. Sit impedit quam mollitia totam, porro voluptatibus tempora consequatur?</p>
+            </section>
 
-<div class="content">
-    <div class="main">
-        <div class="section">
-            <h1>Кто мы такие?</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis soluta praesentium nobis vel, porro saepe repudiandae earum? Doloribus cumque expedita, alias. Sit impedit quam mollitia totam, porro voluptatibus tempora consequatur?</p>
-        </div>
+            <section class="v1-section">
+                <h2>Наши услуги</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis soluta praesentium nobis vel, porro saepe repudiandae earum? Doloribus cumque expedita, alias. Sit impedit quam mollitia totam, porro voluptatibus tempora consequatur?</p>
+            </section>
 
+            <section class="v1-section">
+                <h2>Полезные статьи</h2>
 
-        <div class="section">
-            <h2>Наши услуги</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis soluta praesentium nobis vel, porro saepe repudiandae earum? Doloribus cumque expedita, alias. Sit impedit quam mollitia totam, porro voluptatibus tempora consequatur?</p>
-        </div>
-
-
-        <div class="section">
-            <h2>Полезные статьи</h2>
-            <div class="article">
-                <h4>Название статьи</h4>
-                <div class="date">Опубликовано: 31.11.2020</div>
-                <div class="article-text">
+                <article class="v1-article">
+                    <h4>Название статьи</h4>
+                    <time datetime="2020-11-30">Опубликовано: 31.11.2020</time>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi in ea rerum, sequi reprehenderit fugiat, dignissimos officiis, consectetur dolore sunt totam ullam. At voluptates ex nobis. Quod sint, vitae possimus.</p>
-                </div>
-            </div>
+                </article>
 
-            <div class="article">
-                <h4>Название статьи</h4>
-                <div class="date">Опубликовано: 31.11.2020</div>
-                <div class="article-text">
+                <article class="v1-article">
+                    <h4>Название статьи</h4>
+                    <time datetime="2020-11-30">Опубликовано: 31.11.2020</time>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi in ea rerum, sequi reprehenderit fugiat, dignissimos officiis, consectetur dolore sunt totam ullam. At voluptates ex nobis. Quod sint, vitae possimus.</p>
-                </div>
-            </div>
-        </div>
-    </div>
+                </article>
+            </section>
+        </section>
 
+        <aside class="v1-sidebar">
+            <h4>Наши партнеры</h4>
+            <figure>
+                <img src="../../../img/index/Black.png" alt="Партнер 1" width="180" height="100">
+            </figure>
+            <figure>
+                <img src="../../../img/index/Black.png" alt="Партнер 2" width="180" height="100">
+            </figure>
+            <figure>
+                <img src="../../../img/index/Black.png" alt="Партнер 3" width="180" height="100">
+            </figure>
+        </aside>
+    </main>
 
-    <div class="sidebar">
-        <h4>Наши партнеры</h4>
-        <p><img src="img/some-img.jpg" alt=""></p>
-        <p><img src="img/some-img.jpg" alt=""></p>
-        <p><img src="img/some-img.jpg" alt=""></p>
-    </div>
-</div>
+    <footer class="v1-footer">
+        <h3>Наши контакты</h3>
+        <address>
+            <p>Адрес: Улица 23, дом 3, город</p>
+            <p>Телефон: 22336644544</p>
+            <p>Е-майл: hello@website.ru</p>
+        </address>
+    </footer>
 
-
-<div class="footer">
-    <h3>Наши контакты</h3>
-    <p>Адрес: Улица 23, дом 3, город</p>
-    <p>Телефон: 22336644544</p>
-    <p>Е-майл: hello@website.ru</p>
-</div>
-
+    <footer>
+        Сайт разработан Анисимовым Данилом © Все права защищены
+    </footer>
 
 </body>
 </html>

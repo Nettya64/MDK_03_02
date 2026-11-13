@@ -1,50 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <title>Анисимов: новости</title>
     <link rel="stylesheet" href="../style/style.css">
 </head>
 <body>
-    <header>Персональный сайт Анисимова Данила
-    <p>
-    <a href="../index.html">Главная</a>
-    <a href="news.html">Новости</a>
-    <a href="personal.html">Личный кабинет</a>
-    <a href="works/work.html">Мои работы</a>
-    <a href="../pages/login.html">Войти</a>
-    <a href="../pages/register.html">Регистрация</a>
-    </p>
+    <header>
+        <div>Персональный сайт Анисимова Данила</div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Главная</a></li>
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="personal.html">Личный кабинет</a></li>
+                <li><a href="works/work.html">Мои работы</a></li>
+                <li><a href="login.html">Войти</a></li>
+                <li><a href="register.html">Регистрация</a></li>
+            </ul>
+        </nav>
     </header>
-    <head>
-        <h1>Новости</h1>
-    </head>
-    <main>
-        <h2>В Dota 2 изменили иконку</h2>
-        <article>
-            <p>В Dota 2 спустя 10 лет изменили иконку</p>
-            <img src="../img/news/img1.png" alt="new1" width="300" height="170">
-            <p>11 сентября 2026 года</p>
-            <a href="new1.html">подробнее</a>
-        </article>
 
-        <h2>Geforce RTX 5090 c 96 Gb памяти начали продавать в китае - Всего за 3900 долларов.</h2>
-        <article>
-            <p>В китае начали производство видеокарт Geforce RTX 5090 с 96 Гб видеопамяти на борту. Стоимость состовляет всего 3900 долларов. Они уже появились в продажах на китайских маркетплейсах</p>
-            <img src="../img/news/img2.jpg" alt="new2" width="300" height="200">
-            <p>11 сентября 2026 года</p>
-            <a href="new2.html">подробнее</a>
-        </article>
+    <div class="content">
+        <main>
+            <h1>Новости</h1>
 
-        <h2>AMD выпустила бюджетные процессоры Ryzen на фоне рекордных цен на память</h2>
-        <article>
-            <p>AMD расширила линейку доступных процессора Ryzen двумя шестиядерными моделями - Ryzen 5 5500F и Ryzen 5 7500. Обе ориентированны прежде всего на недорогие сборки.</p>
-            <img src="../img/news/img3.jpg" alt="new3" width="300" height="160">
-            <p>11 сентября 2026 года</p>
-            <a href="new3.html">подробнее</a>
-        </article>
+            <article class="news-item">
+                <h3>В Dota 2 изменили иконку</h3>
+                <div class="prew new1"></div>
+                <p>В Dota 2 спустя 10 лет изменили иконку. Ее сделали светлее, чем раньше.</p>
+                <span>11 сентября 2026 года</span>
+                <p><a href="new1.html">подробнее</a></p>
+            </article>
 
-    </main>
+            <article class="news-item">
+                <h3>Geforce RTX 5090 с 96 Gb памяти начали продавать в Китае - Всего за 3900 долларов</h3>
+                <div class="prew new2"></div>
+                <p>В Китае начали производство видеокарт Geforce RTX 5090 с 96 Гб видеопамяти на борту. Стоимость составляет всего 3900 долларов.</p>
+                <span>11 сентября 2026 года</span>
+                <p><a href="new2.html">подробнее</a></p>
+            </article>
+
+            <article class="news-item">
+                <h3>AMD выпустила бюджетные процессоры Ryzen на фоне рекордных цен на память</h3>
+                <div class="prew new3"></div>
+                <p>AMD расширила линейку доступных процессоров Ryzen двумя шестиядерными моделями - Ryzen 5 5500F и Ryzen 5 7500.</p>
+                <span>11 сентября 2026 года</span>
+                <p><a href="new3.html">подробнее</a></p>
+            </article>
+        </main>
+
+        <aside>
+            <h3>Информация</h3>
+            <p><strong>Город:</strong> Пермь</p>
+            <p><strong>Погода:</strong> 2°C, облачно</p>
+            <p><strong>Дата:</strong> 27.10.2026</p>
+        </aside>
+    </div>
+
     <footer>Сайт разработан Анисимовым Данилом © Все права защищены</footer>
 </body>
 </html>

@@ -99,6 +99,7 @@
     padding: 0;
     margin: 0;
     background: orange;
+    width: fit-content;
 }
 .menu-task5 li {
     display: inline-block;
@@ -205,13 +206,13 @@ table.calendar {
 table.calendar th {
     padding: 6px 12px;
     font-size: 14px;
-    color: #333;
-    border-bottom: 2px solid #555;
+    color: #e0e0e0;
+    border-bottom: 2px solid #777;
 }
 table.calendar td {
     padding: 6px 12px;
     font-size: 14px;
-    color: #333;
+    color: #e0e0e0;
     border: none;
 }
 table.calendar .weekend {
