@@ -107,9 +107,15 @@ aside {
   margin-bottom: 10px;
 }
 
-.skill1,
-.skill2,
-.skill3,
+.skill1{
+  background-image: url("../img/index/skills/ae.png");
+}
+.skill2{
+  background-image: url("../img/index/skills/ollama.png");
+}
+.skill3{
+  background-image: url("../img/index/skills/ps.png");
+}
 .course1,
 .course2 {
   background-image: url("../img/index/Black.png");
